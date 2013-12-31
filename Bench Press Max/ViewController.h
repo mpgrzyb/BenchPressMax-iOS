@@ -16,7 +16,6 @@
 @property (strong, nonatomic) IBOutlet UILabel *repsLabel;
 @property (strong, nonatomic) IBOutlet UITextField *barbellWeight;
 @property (strong, nonatomic) IBOutlet UILabel *resultLabel;
-@property (strong, nonatomic) IBOutlet UILabel *descriptionLabel;
 
 - (IBAction)clearAll:(id)sender;
 -(IBAction)changeRepsValue:(id)sender;

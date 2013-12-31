@@ -73,7 +73,6 @@
 // Kliknięcie przycisku Clear
 - (IBAction)clearAll:(id)sender {
     [self.resultLabel setHidden:YES];
-    [self.descriptionLabel setHidden:YES];
     [self.clearButton setHidden:YES];
     [self.barbellWeight setText:@""];
     [self.slider setValue:7];
@@ -92,10 +91,9 @@
     if([self.barbellWeight.text length] != 0){
         
         [self.resultLabel setHidden:NO];
-        [self.descriptionLabel setHidden:NO];
         [self.clearButton setHidden:NO];
         
-        NSString *result = [NSString stringWithFormat:@"%.2f", [self calculateMax]];
+        NSString *result = [NSString stringWithFormat:@"Your max result: %.2f", [self calculateMax]];
         [self.resultLabel setText:result];
     }else{
         UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Warning" message:@"Please set barbell weight first." delegate:self cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil];
