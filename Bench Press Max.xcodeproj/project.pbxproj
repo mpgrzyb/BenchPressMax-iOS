@@ -396,6 +396,7 @@
 				GCC_PREFIX_HEADER = "Bench Press Max/Bench Press Max-Prefix.pch";
 				INFOPLIST_FILE = "Bench Press Max/Bench Press Max-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -409,6 +410,7 @@
 				GCC_PREFIX_HEADER = "Bench Press Max/Bench Press Max-Prefix.pch";
 				INFOPLIST_FILE = "Bench Press Max/Bench Press Max-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -474,6 +476,7 @@
 				830E7E93186D884C00A393BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		830E7E94186D884C00A393BE /* Build configuration list for PBXNativeTarget "Bench Press MaxTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +485,7 @@
 				830E7E96186D884C00A393BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
